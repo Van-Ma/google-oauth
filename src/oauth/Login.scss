@@ -1,0 +1,68 @@
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+//----- page layout
+.user-authentication-page {
+  @include flex-center;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+
+//----- login container
+.login-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; 
+  width: 70%;
+  max-width: 500px;
+  padding: 2rem;
+  border: 2px solid grey;
+  border-radius: 10px;
+  margin: 4rem auto;
+  min-height: 300px; 
+}
+
+
+//----- text
+.sign-in-text,
+.welcome-text {
+  margin: 0;
+}
+
+.sign-in-text {
+  text-align: left;
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+
+//----- login ubtton
+.login-btn {
+  @include flex-center;
+  gap: 10px;
+  padding: 10px 25px;
+  margin: 0 auto;
+  cursor: pointer;
+
+  border: 3px solid #e5e5e5;
+  border-radius: 25px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+
+  img {
+    height: 20px;
+  }
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
