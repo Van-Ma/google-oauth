@@ -20,8 +20,6 @@ This is a simple demo project showing how to implement Google OAuth login using 
  
 ## Instructions
 
-## Instructions
-
 ### Backend
 1. pip install -r requirements.txt  
 2. create .env file in backend folder with Google OAuth credentials:  
