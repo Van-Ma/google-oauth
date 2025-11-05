@@ -1,7 +1,7 @@
 # Google OAuth Demo
 This is a simple demo project showing how to implement Google OAuth login using a React frontend and a Flask backend. 
 
-![Login Page](./public/login.png)
+![Login Page](./public/log-in.png)
 ![Welcome Page](./public/welcome.png)
 
 ## Features
