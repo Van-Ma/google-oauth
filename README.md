@@ -33,3 +33,5 @@ This is a simple demo project showing how to implement Google OAuth login using 
 1. navigate to the project folder  
 2. npm install  
 3. npm start  
+
+**Disclaimer:** This project is just a simple API demo for **local development**. In a real project, tokens should be stored securely (e.g., using Keytar), and HTTPS should be used instead of HTTP.
